@@ -1,0 +1,23 @@
+.todo-gallery {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.todo-column {
+    margin: 0 10px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.todo-column h2 {
+    text-align: center;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    margin-bottom: 15px;
+    font-weight: bold;
+    font-size: 30px;
+    position: sticky;
+    top: 70px;
+    z-index: 10;
+}

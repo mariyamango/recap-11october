@@ -1,0 +1,98 @@
+@import 'https://fonts.googleapis.com/css?family=Open+Sans';
+
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  font-family: 'Open Sans', sans-serif;
+  line-height: 1.75em;
+  font-size: 16px;
+  color: #aaa;
+  margin: 0 10px;
+  background: url("https://wallpaper.forfun.com/fetch/09/098570c9b9aebe47fb268aeecdadd25a.jpeg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+}
+
+.simple-container {
+  max-width: 1300px;
+  margin: 0 auto;
+  padding-top: 120px;
+  padding-bottom: 20px;
+}
+
+h1 {
+  font-size: 30px;
+  line-height: 34px;
+}
+
+h2 {
+  font-size: 20px;
+  line-height: 25px;
+}
+
+p {
+  font-size: 16px;
+}
+
+a[href] {
+  color: #1e8ad6;
+  text-decoration: none;
+}
+
+a[href]:hover {
+  color: #3ba0e6;
+}
+
+hr {
+  height: 1px;
+  background-color: #d8d8d8;
+  border: none;
+  width: 100%;
+  margin: 0px;
+}
+
+.menu {
+  width: 100%;
+  background-color: rgba(51, 51, 51, 0.86);
+  padding: 1em 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+
+.menu-links {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.menu-links li {
+  margin: 0 1.5em;
+}
+
+.menu-links a {
+  color: #2f86c2;
+  font-size: 1.5em;
+  font-weight: 800;
+}
+
+.menu-links a:hover {
+  color: #58b2f1;
+}
+
+.simple-ext-info {
+  border-top: 1px solid #aaa;
+}
+
+@media (min-width: 1921px) {
+  body {
+    font-size: 18px;
+  }
+}
