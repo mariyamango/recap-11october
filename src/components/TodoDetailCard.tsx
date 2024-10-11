@@ -101,7 +101,6 @@ export default function TodoDetailCard() {
                                 onChange={handleChange}
                                 required
                             >
-                                <option value="">...</option>
                                 <option value="OPEN">Open</option>
                                 <option value="IN_PROGRESS">In progress</option>
                                 <option value="DONE">Done</option>

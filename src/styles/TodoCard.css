@@ -12,18 +12,20 @@
 }
 
 .todo-card:hover {
-    transform: translateY(-10px);
+    transform: translateY(-5px);
     background-color: #2f86c2;
 }
 
 .todo-card h3 {
     color: #fff;
     margin-bottom: 0.5em;
+    word-break: break-all;
 }
 .todo-card p {
     color: #f0efeb;
     margin-bottom: 1em;
     flex-grow: 1;
+    text-wrap: wrap;
 }
 .todo-card button {
     background-color: #bdb2ff;
